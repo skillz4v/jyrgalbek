@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body { text-align: center }
+html{
+	background: url(background.png) no-repeat center center;
+	min-height: 100%;
+	background-size: covers;
+}
+
+h1 { font-family: Akzidenz-Grotesk Pro Bold Ext; font-size: 57.06px; margin-bottom: 16px;}
+p { font-family: Akzidenz-Grotesk Pro Med; font-size: 16px;}
+a { color: white; font-family: Akzidenz-Grotesk Pro Med; font-size: 11px;
+padding: 16px 32px; background: black
+}.button { padding: 16px 32px;}
+.center1 { margin: 50% 0%; }
+.button: hover { transform: scale(1.08); transition: 0.32s;}
